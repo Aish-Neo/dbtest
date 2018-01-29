@@ -1,0 +1,53 @@
+<html>
+<head>
+    <!--
+    This is the library that provides websocket streaming pub/sub
+    The dev serverver is serving the html and javascript, but it also provides updating fx data on /fx/prices.
+     -->
+    <script src="stomp.js"></script>
+    <script src="sparkline.js"></script>
+</head>
+<body>
+
+<!-- This is a description of what you should do for this task.  You can remove it for your answer -->
+<section class="content">
+    <ul>
+        <li>
+            Name - Aishvarya Shrivastava
+        </li>
+        <li>
+            Email - aishvarya0507@gmail.com
+        </li>
+        <li>
+            Mobile No - +917798896137
+        </li>
+    </ul>
+    <section id="json">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Best Bid</th>
+                <th>Best Ask</th>
+                <th>Open Bid</th>
+                <th>Open Ask</th>
+                <th>Last Change Bid</th>
+                <th id="lastChangedAsk">Last Change Ask</th>
+                <th >Sparkline</th>
+            </tr>
+            <tbody id ="rows"></tbody>
+        </table>
+    </section>
+    </p>
+    <strong>
+        Note - <br>
+        1. All logic is done with core javascript <br>
+        2. When table is register into DOM and data map with it then sorting algorithm will run at same time, But if you want to change forcefully then Click on last change ASK table column name you will be able to sort data forcefully.
+    </strong>
+</section>
+
+<!-- Code you write in index.js and anything it depends on will be bundled into bundle.js and
+     is included here -->
+<script src="bundle.js"></script>
+
+</body>
+</html>
